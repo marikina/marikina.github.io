@@ -6,6 +6,10 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.navbar-inverse {
+  background-color: #FFF;
+  border-color: #FFF;
+}
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
