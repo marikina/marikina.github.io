@@ -6,6 +6,9 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.navbar {
+  min-height: 90px;
+}
 .navbar-inverse {
   background-color: #FFF;
   border-color: #FFF;
