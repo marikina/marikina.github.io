@@ -6,3 +6,9 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #CCCBCB;
+  background-color: #FFF;
+}
