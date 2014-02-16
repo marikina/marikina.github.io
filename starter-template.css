@@ -5,7 +5,7 @@ body {
 h1, .lead {
   color: gray;
 }
-.main.container {
+.main.container-fluid {
   padding-top: 15px;
 }
 .navbar {
@@ -59,7 +59,7 @@ h1, .lead {
   }
 }
 .hentry.no-thumbnail {
-  opacity: .2;
+  opacity: .6;
 }
 @media screen and ( max-width: 800px ) {
   /* Increase opacity for small screen sizes and touch screens */
@@ -97,11 +97,11 @@ h1, .lead {
   margin: 10px;
   padding: 0;
   position: relative;
-  width: 180px;
-  height: 180px;
+  width: 190px;
+  height: 190px;
 }
 .hentry.no-thumbnail {
-  border-radius: 180px;
+  border-radius: 190px;
   overflow: hidden;
   -webkit-transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
@@ -109,17 +109,17 @@ h1, .lead {
   -ms-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   word-wrap: break-word;
-  width: 180px;
-  max-width: 180px;
-  height: 180px;
-  max-height: 180px;
+  width: 190px;
+  max-width: 190px;
+  height: 190px;
+  max-height: 190px;
 }
 .hentry .thumbnail-title {
   color: #fff;
-  font-size: 32px;
-  font-size: 2.3rem;
+  font-size: 30px;
+  font-size: 2.1rem;
   font-style: bold;
-  line-height: 32px;
+  line-height: 30px;
   overflow: hidden;
   position: absolute;
     top: 50%;
@@ -131,7 +131,7 @@ h1, .lead {
   transform: translate(-50%, -50%);
   vertical-align: middle;
   word-wrap: break-word;
-  width: 180px;
+  width: 190px;
 }
 .hentry.no-thumbnail .thumbnail-title {
   display: block;
@@ -139,15 +139,10 @@ h1, .lead {
 }
 .hentry.no-thumbnail:hover,
 .hentry.no-thumbnail:focus {
-  opacity: 60;
+  opacity: 1;
   -webkit-transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -ms-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-}
-
-
-.hentry.no-thumbnail.web-events {
-  background: #D60A51;
 }
