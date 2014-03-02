@@ -1,4 +1,10 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   padding-top: 20px;
 }
@@ -6,10 +12,12 @@ h1, .lead {
   color: gray;
 }
 .main.container-fluid {
-  padding-top: 15px;
+padding-bottom: 20px;
 }
+
 .navbar {
   min-height: 90px;
+  margin-bottom:0px;
 }
 .navbar-inverse {
   background-color: #FFF;
@@ -145,4 +153,14 @@ h1, .lead {
   -o-transition: all .4s ease-in-out;
   -ms-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color:#7c8080;
+  opacity: .6;
 }
